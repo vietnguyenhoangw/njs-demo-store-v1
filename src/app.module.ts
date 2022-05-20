@@ -9,11 +9,11 @@ import { Connection } from 'typeorm/connection/Connection';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'bkxhco3gu379dtin2ia7-mysql.services.clever-cloud.com',
       port: 3306,
-      username: 'root',
-      password: 'Hoangviet2@',
-      database: 'demo-store-app-v1',
+      username: 'uwsaxzv6whterugc',
+      password: 'pgVeWGqPLOB3sNSfvpMK',
+      database: 'bkxhco3gu379dtin2ia7',
       entities: [],
       synchronize: true,
       autoLoadEntities: true,
